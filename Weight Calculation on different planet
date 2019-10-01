@@ -1,0 +1,13 @@
+def weight(location,mass):
+    if location=='earth':
+        weight=9.8*float(mass)
+        return weight
+    elif location=='mars':
+            weight=3.77*float(mass)
+            return weight
+    elif location=='jupyter':
+            weight=24.79*float(mass)
+            return weight
+    elif location=='venus':
+            weight=8.87*float(mass)
+            return weight 
