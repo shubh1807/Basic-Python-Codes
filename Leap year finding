@@ -1,0 +1,4 @@
+def find_leap(l):
+    if l%4==0:
+        if l%100!=0:
+            return l
