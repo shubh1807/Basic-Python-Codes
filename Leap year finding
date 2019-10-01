@@ -2,3 +2,11 @@ def find_leap(l):
     if l%4==0:
         if l%100!=0:
             return l
+Thank you
+
+def leap_from_range(start,end):
+    leap_years=[]
+    for i in range(start,end+1):
+        if find_leap(i):
+            leap_years.append(i)
+    return leap_years
